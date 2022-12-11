@@ -51,13 +51,14 @@ MD5: 6262e139bedf460c6593e38260b5f455
 
 ## Commands executed
 
+```powershell
 cmd.exe /c whoami
 cmd.exe /c net stop WinDefend
 cmd.exe /c net stop WdNisSvc
 cmd.exe /c net stop WdNisDrv
 cmd.exe /c net stop WdFilter
 cmd.exe /c net stop WdBoot
-
+```
 
 ## Registry Keys touched
 
@@ -88,8 +89,9 @@ MD5: e379ae2bc3efc0737f764067ea262210
 
 ## Commands executed
 
+```powershell
 WDC_Nsudo.exe -U:T -P:E -Wait -Priority:High C:\Temp\wd\20211231_WDControl_1.5.0.exe /disable
-
+```
 
 
 
